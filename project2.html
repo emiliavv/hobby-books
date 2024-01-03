@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books - My hobby</title>
+</head>
+<style>
+    
+    .body {
+        font-family: 'Raleway', sans-serif;
+        background-image: url(https://content3.jdmagicbox.com/comp/def_content/book_shops/default-book-shops-92.jpg);
+    }
+
+    .dark {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        font-size: 20px;
+        padding: 10px 15px;
+        border-radius: 20px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 10px;
+        transition: all 200ms ease-in-out;
+    }
+
+    .dark:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    .darkTheme .dark {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+    
+    .content {
+        margin: 0 auto;
+        display: block;
+        background-color: rgb(255, 255, 255, 0.9);
+        border-radius: 10px;
+        width: 70%;
+    }
+    .darkTheme .content {
+        background-color: rgb(0, 0, 0, 0.9);
+        color: white;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 20px;
+        margin:0;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 15px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .quote {
+        padding: 10px 20px 0px 20px;
+        line-height: 25px;
+        margin: 0 auto;
+    }
+
+    .sPlath {
+        text-align: right;
+        margin: 0 auto;
+        padding: 0 10px 10px 0;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    span {
+        font-weight: normal;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    .kundera {
+        margin: 0 auto;
+        display: block;
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px grey;
+    }
+
+    .description {
+        padding: 20px;
+        padding-bottom: 0px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    a {
+       text-align: center;
+        margin: 0;
+        display: block;
+        padding: 0;
+        text-decoration: none;
+        color: #569ABD;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    
+    .grid img {
+        height: 300px;
+        border-radius: 10px;
+        transition: transform 200ms ease-in-out, filter 2000ms ease-in-out;
+    }
+
+    .grid img:hover {
+        transform: scale(1.3);
+        filter: brightness(150%);
+        cursor: pointer;
+    }
+
+    .subscribe {
+        padding:10px 15px;
+        border-radius: 20px;
+        background-color: #8B1719;
+        border: none;
+        color: white ;
+        margin: 0 auto;
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        transition: all 200ms ease-in-out;
+    }
+
+    .subscribe:hover {
+        opacity: 0.4;
+        cursor: pointer;
+    }
+
+    footer {
+        background-color: rgb(139, 23, 25, 0.5);
+        color: white;
+        text-align: center;
+        padding:10px;
+        font-weight: bold;
+    }
+
+    @media screen and (max-width: 1000px) {
+    body .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+}
+</style>
+<body class="body">
+    <button class="dark">Change theme</button>
+    <div class="content">
+       <h1>📚Reading books📚</h1>
+       <h2>My hobby</h2>
+       <hr>
+        <p class="quote"> 
+            <em>“I can never read all the books I want; I can never be all the people I want and live all the lives I want. I can never
+    train myself in all the skills I want. And why do I want? I want to live and feel all the shades, tones and variations
+    of mental and physical experience possible in my life. And I am horribly limited.”</em>
+        </p>
+        <br>
+        <p class="sPlath">― Sylvia Plath, The Unabridged Journals of Sylvia Plath</p>
+        <hr>
+        <h3>Best books I have read this year <span>(2023)</span></h3>
+        <img class="kundera" src="https://m.media-amazon.com/images/I/51JnSmbXRzL._AC_UF1000,1000_QL80_.jpg" alt="The Unbearable Lightness of Being - book cover">
+        <p class="description" >The Unbearable Lightness of Being (Czech: Nesnesitelná lehkost bytí) is a 1984 novel by Milan Kundera, about two women,
+        two men, a dog, and their lives in the 1968 Prague Spring period of Czechoslovak history. Although written in 1982, the
+        novel was not published until two years later, in a French translation (as L'insoutenable légèreté de l'être).The
+        same year, it was translated to English from Czech by Michael Henry Heim and excerpts of it were published in The New
+        Yorker.The original Czech text was published the following year.</p>
+        <a href="https://en.wikipedia.org/wiki/The_Unbearable_Lightness_of_Being">📖 Learn more on Wikipedia</a>
+        <br>
+        <div class="grid">
+            <a target="_blank"   href="https://www.amazon.com/Man-Called-Ove-Novel/dp/1476738025">
+                <img src="https://amanjareads.com/wp-content/uploads/2023/08/a-man-called-ove.jpg" alt="A man called Ove - book cover"> 
+            </a>
+            <a target="_blank" href="https://www.amazon.com/That-Will-Never-Work-Netflix/dp/0316530204">
+                 <img src="https://m.media-amazon.com/images/I/71taqqdpcaL._AC_UF1000,1000_QL80_.jpg" alt="That Will Never Work: The Birth of Netflix and the Amazing Life of an Idea - book cover">
+            </a>
+            <a target="_blank" href="https://www.amazon.com/Men-Explain-Things-Rebecca-Solnit/dp/1608464660">
+                 <img src="https://m.media-amazon.com/images/I/51b1LhkBbYL._AC_UF1000,1000_QL80_.jpg" alt="Men explain things to me - book cover"> 
+            </a>
+            <a target="_blank" href="https://www.amazon.com/Educated-Memoir-Tara-Westover/dp/0399590501">
+                <img src="https://cdn.theatlantic.com/thumbor/Yzb9Cnagznat5AwrVFO73wGIUTw=/0x833:1837x2670/1080x1080/media/img/2018/02/CULT_C2C_Educated/original.jpg" alt="Educated - book cover">  
+            </a>
+            <a target="_blank" href="https://www.amazon.com/Revenge-Eleven-Tales-Yoko-Ogawa/dp/0312674465">
+                <img src="https://m.media-amazon.com/images/I/81tdLeokfrL._AC_UF1000,1000_QL80_.jpg" alt="Revenge: Eleven Dark Tales - book cover">
+            </a>
+            <a target="_blank" href="https://www.amazon.com/Milk-Fed-Novel-Melissa-Broder/dp/1982142499">
+                <img src="https://ecsmedia.pl/c/milk-fed-b-iext116287319.jpg" alt="Milk fed - book cover">
+            </a>
+       
+    </div>
+    <button class="subscribe">Subscribe to monthly book newsletter</button> 
+    <br>
+    </div>
+    
+    <footer> <strong>Coded by Emilia Wójcik</strong></footer>
+    <script>
+        function changeTheme() {
+            let body = document.querySelector("body")
+            if (body.classList.contains("darkTheme")) {
+                body.style.backgroundImage = 'url(https://content3.jdmagicbox.com/comp/def_content/book_shops/default-book-shops-92.jpg)';
+            } else {
+                body.style.backgroundImage = 'url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/624/original/project2.jpg?1698009336)';
+            }
+            body.classList.toggle("darkTheme");
+        }
+        let dark = document.querySelector(".dark")
+        dark.addEventListener("click", changeTheme)
+
+        function subscribeNews() {
+            let name = prompt("What is your name ?")
+            let email = prompt("What is your e-mail ?")
+            alert("Thank you for signing into our book newsletter 📚♥️")
+            let header = document.querySelector("h1")
+            header.innerHTML = `♥️📚${name} is reading books📚♥️`
+        }
+        let subscribe = document.querySelector(".subscribe")
+        subscribe.addEventListener("click", subscribeNews)
+    </script>
+</body>
+</html>
